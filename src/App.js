@@ -1,3 +1,4 @@
+import FAQComponent from './components/FAQComponent';
 import React, { useRef } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -56,7 +57,7 @@ function LandingPage() {
           <LeadForm />
         </div>
       </main>
-      
+      <FAQComponent />
       <Footer />
     </>
   );
