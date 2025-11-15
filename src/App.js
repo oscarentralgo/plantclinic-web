@@ -10,7 +10,6 @@ import LeadForm from './components/LeadForm';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import CompetitiveTable from './components/CompetitiveTable';
-import Roadmap from './components/Roadmap';
 import Footer from './components/Footer';
 import AdminDashboard from './components/AdminDashboard';
 
@@ -50,7 +49,6 @@ function LandingPage() {
         </div>
         <Testimonials />
         <CompetitiveTable />
-        <Roadmap />
         <div ref={contactRef}>
           <LeadForm />
         </div>
