@@ -12,6 +12,9 @@ import Testimonials from './components/Testimonials';
 import CompetitiveTable from './components/CompetitiveTable';
 import Footer from './components/Footer';
 import AdminDashboard from './components/AdminDashboard';
+import ROICalculator from './components/ROICalculator';
+import '../styles/ROICalculator.css';
+
 
 function LandingPage() {
   const demoRef = useRef(null);
@@ -40,6 +43,7 @@ function LandingPage() {
       
       <main>
         <Hero onScrollToDemo={scrollToDemo} onScrollToContact={scrollToContact} />
+        <ROICalculator />  {/* ← Agregá aquí */}
         <ValueProposition />
         <div ref={demoRef}>
           <InteractiveDemo />
