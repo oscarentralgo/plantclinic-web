@@ -14,6 +14,8 @@ import CompetitiveTable from './components/CompetitiveTable';
 import Footer from './components/Footer';
 import AdminDashboard from './components/AdminDashboard';
 import ROICalculator from './components/ROICalculator';
+import AlertCalendar from './components/AlertCalendar';
+
 
 
 function LandingPage() {
